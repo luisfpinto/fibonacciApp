@@ -11,7 +11,7 @@
 		A0BE600E2225611200CC747D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE600D2225611200CC747D /* ViewController.swift */; };
 		A0BE60112225611200CC747D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE600F2225611200CC747D /* Main.storyboard */; };
 		A0BE60132225611200CC747D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BE60122225611200CC747D /* Assets.xcassets */; };
-		A0BE60162225611200CC747D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BE60142225611200CC747D /* LaunchScreen.storyboard */; };
+		A0BE601E222561B300CC747D /* fibonacciSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE601D222561B300CC747D /* fibonacciSequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +20,8 @@
 		A0BE600D2225611200CC747D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0BE60102225611200CC747D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0BE60122225611200CC747D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A0BE60152225611200CC747D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BE60172225611200CC747D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BE601D222561B300CC747D /* fibonacciSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fibonacciSequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 				A0BE600B2225611200CC747D /* AppDelegate.swift */,
 				A0BE600D2225611200CC747D /* ViewController.swift */,
 				A0BE600F2225611200CC747D /* Main.storyboard */,
+				A0BE601D222561B300CC747D /* fibonacciSequence.swift */,
 				A0BE60122225611200CC747D /* Assets.xcassets */,
-				A0BE60142225611200CC747D /* LaunchScreen.storyboard */,
 				A0BE60172225611200CC747D /* Info.plist */,
 			);
 			path = FibonacciApp;
@@ -123,7 +123,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0BE60162225611200CC747D /* LaunchScreen.storyboard in Resources */,
 				A0BE60132225611200CC747D /* Assets.xcassets in Resources */,
 				A0BE60112225611200CC747D /* Main.storyboard in Resources */,
 			);
@@ -137,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0BE600E2225611200CC747D /* ViewController.swift in Sources */,
+				A0BE601E222561B300CC747D /* fibonacciSequence.swift in Sources */,
 				A0BE600C2225611200CC747D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +150,6 @@
 				A0BE60102225611200CC747D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A0BE60142225611200CC747D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0BE60152225611200CC747D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
